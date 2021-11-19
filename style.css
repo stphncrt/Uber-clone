@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gs {
+    gap: 2rem;
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer #wrapper {
+    margin: 5rem;
+}
+
+footer header div {
+    width: max-content;
+}
+
+#header-p:hover {
+    color: #fff;
+}
+
+header hr {
+    border-top: 2px solid white;
+    width: 5rem;
+}
+
+footer h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer section {
+    display: flex;
+    gap: 10rem;
+}
+
+footer hr {
+    max-width: max-content;
+}
+
+footer p:hover {
+    color: #afafaf;
+    font-weight: 300;
+}
+
+.footer-column {
+    width: 13rem;
+}
+
+#company {
+    justify-content: space-between;
+}
