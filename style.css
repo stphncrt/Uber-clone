@@ -143,6 +143,7 @@ nav ul li:hover {
 .icon-wrapper {
     align-items: center;
     justify-content: flex-start;
+    width: 3rem;
 }
 
 .icon-wrapper p {
