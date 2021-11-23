@@ -96,6 +96,15 @@ nav ul li:hover {
     margin-bottom: 0;
 }
 
+.uber-type p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.uber-type p:hover {
+    color: #545454;
+}
+
 .uber-information {
     background-color: #fff;
     flex-direction: column;
@@ -337,8 +346,18 @@ footer header div {
     width: max-content;
 }
 
+#header-p {
+    padding-bottom: 3rem;
+}
+
 #header-p:hover {
     color: #fff;
+    border-bottom: 2px solid #fff;
+    font-weight: 400;
+}
+
+.header-p {
+    height: 5rem;
 }
 
 header hr {
@@ -392,6 +411,12 @@ a {
 .appstores {
     margin-left: auto;
     justify-content: flex-end;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#company {
+    margin: 2rem 0 0 0;
 }
 
 @media (min-width: 1024px) {
