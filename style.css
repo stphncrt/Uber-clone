@@ -199,7 +199,7 @@ nav ul li:hover {
 
 #safety {
     margin: 0;
-    padding: 6rem;
+    padding: 4rem;
     padding-top: 0;
 }
 
@@ -215,6 +215,7 @@ nav ul li:hover {
     display: flex;
     flex-flow: row wrap;
     gap: 2rem;
+    border: 1px solid red;
 }
 
 .safety-content {
