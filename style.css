@@ -111,7 +111,8 @@ nav ul li:hover {
 
 .uber-information {
     background-color: #fff;
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: grid;
 }
 
 .uber-paid-wrapper {
@@ -383,7 +384,7 @@ footer hr {
     max-width: max-content;
 }
 
-footer p:hover {
+footer a:hover {
     color: #afafaf;
     font-weight: 300;
 }
@@ -405,6 +406,8 @@ footer p:hover {
 
 a {
     color: #fff;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .appstores img {
@@ -420,6 +423,11 @@ a {
 
 #company {
     margin: 2rem 0 0 0;
+}
+
+#contacts {
+    align-items: center;
+    margin-top: 3rem;
 }
 
 @media (min-width: 1024px) {
